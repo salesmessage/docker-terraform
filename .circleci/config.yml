@@ -89,7 +89,7 @@ workflows:
           filters:
             branches:
               only: master
-  taggged:
+  tagged:
     jobs:
       - build:
           filters:
